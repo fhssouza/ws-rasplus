@@ -15,7 +15,7 @@ import java.math.BigDecimal;
 @Builder
 @Entity
 @Table(name = "subscriptions_type")
-public class SubscriptionsType implements Serializable {
+public class SubscriptionType implements Serializable {
 
 
     @Id

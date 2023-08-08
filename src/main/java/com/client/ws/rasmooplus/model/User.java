@@ -43,6 +43,6 @@ public class User implements Serializable {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "subscriptions_type_id")
-    private SubscriptionsType subscriptionsType;
+    private SubscriptionType subscriptionType;
 
 }
